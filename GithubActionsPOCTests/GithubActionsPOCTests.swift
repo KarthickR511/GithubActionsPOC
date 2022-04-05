@@ -36,11 +36,6 @@ class GithubActionsPOCTests: XCTestCase {
         XCTAssertEqual(result, 3, "Success")
     }
     
-    func testAdditionFailure() {
-        let result = objMathOperations.addition(num1: 1, num2: 5)
-        XCTAssertEqual(result, 3, "Failure")
-    }
-    
     func testSubtractionSuccess() {
         let result = objMathOperations.subtraction(num1: 4, num2: 2)
         XCTAssertEqual(result, 2, "Success")
